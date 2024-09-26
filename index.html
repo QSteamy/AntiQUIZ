@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AntiQUIZ</title>
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="counter.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <script type="text/javascript" src="db.js" defer></script>
+        <p class="winC">Верно: <a id="winclicks">0</a></p>
+        <p class="loseC">Неверно: <a id="loseclicks">0</a></p>
+        <button type="button" class="winBtn" onClick="onClickWin()"><div class="W"></div></button>
+        <button type="button" class="failBtn" onClick="onCLickLose()"><div class="X"></div></button>
+        <div class="title"><h1>AntiQUIZ<br/>ANTIHYPETRAIN</h1></div>
+        <div class="body">
+            <div class="slider">
+                <div class="item">
+                    <div class="front">
+                        <h1><a id="question0">Blank</a></h1>
+                        <ul>
+                            <li id="crit01">Criteria 1</li>
+                            <li id="crit02">Criteria 2</li>
+                            <li id="crit03">Criteria 3</li>
+                        </ul>
+                    </div>
+                    <div class="back">
+                        <div class="cover">
+                            <div class="blur"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="front">
+                        <h1><a id="question1">Blank</a></h1>
+                        <ul>
+                            <li id="crit11">Criteria 1</li>
+                            <li id="crit12">Criteria 2</li>
+                            <li id="crit13">Criteria 3</li>
+                        </ul>
+                    </div>
+                    <div class="back">
+                        <div class="cover">
+                            <div class="blur"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="front">
+                        <h1><a id="question2">Blank</a></h1>
+                        <ul>
+                            <li id="crit21">Criteria 1</li>
+                            <li id="crit22">Criteria 2</li>
+                            <li id="crit23">Criteria 3</li>
+                        </ul>
+                    </div>
+                    <div class="back">
+                        <div class="cover">
+                            <div class="blur"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="front">
+                        <h1><a id="question3">Blank</a></h1>
+                        <ul>
+                            <li id="crit31">Criteria 1</li>
+                            <li id="crit32">Criteria 2</li>
+                            <li id="crit33">Criteria 3</li>
+                        </ul>
+                    </div>
+                    <div class="back">
+                        <div class="cover">
+                            <div class="blur"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="front">
+                        <h1><a id="question4">Blank</a></h1>
+                        <ul>
+                            <li id="crit41">Criteria 1</li>
+                            <li id="crit42">Criteria 2</li>
+                            <li id="crit43">Criteria 3</li>
+                        </ul>
+                    </div>
+                    <div class="back">
+                        <div class="cover">
+                            <div class="blur"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="front">
+                        <h1><a id="question5">Blank</a></h1>
+                        <ul>
+                            <li id="crit51">Criteria 1</li>
+                            <li id="crit52">Criteria 2</li>
+                            <li id="crit53">Criteria 3</li>
+                        </ul>
+                    </div>
+                    <div class="back">
+                        <div class="cover">
+                            <div class="blur"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="front">
+                        <h1><a id="question6">Blank</a></h1>
+                        <ul>
+                            <li id="crit61">Criteria 1</li>
+                            <li id="crit62">Criteria 2</li>
+                            <li id="crit63">Criteria 3</li>
+                        </ul>
+                    </div>
+                    <div class="back">
+                        <div class="cover">
+                            <div class="blur"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="front">
+                        <h1><a id="question7">Blank</a></h1>
+                        <ul>
+                            <li> <a id="crit71">Criteria 1</a></li>
+                            <li> <a id="crit72">Criteria 2</a></li>
+                            <li> <a id="crit73">Criteria 3</a></li>
+                        </ul>
+                    </div>
+                    <div class="back">
+                        <div class="cover">
+                            <div class="blur"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="front">
+                        <h1><a id="question8">Blank</a></h1>
+                        <ul>
+                            <li id="crit81">Criteria 1</li>
+                            <li id="crit82">Criteria 2</li>
+                            <li id="crit83">Criteria 3</li>
+                        </ul>
+                    </div>
+                    <div class="back">
+                        <div class="cover">
+                            <div class="blur"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="front">
+                        <h1><a id="question9">Blank</a></h1>
+                        <ul>
+                            <li id="crit91">Criteria 1</li>
+                            <li id="crit92">Criteria 2</li>
+                            <li id="crit93">Criteria 3</li>
+                        </ul>
+                    </div>
+                    <div class="back">
+                        <div class="cover">
+                            <div class="blur"></div>
+                        </div>
+                    </div>
+                </div>
+                <button id="next">></button>
+                <button id="prev"><</button>
+            </div>
+        </div>
+        <script src="behaviour.js"></script>
+    </body>
+</html>
