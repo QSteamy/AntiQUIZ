@@ -226,7 +226,7 @@ h1 {
     width: 50px;
     border-radius: 50%;
     position: absolute;
-    bottom: 10%;
+    bottom: 7%;
     border-style: none;
     transition: 0.1s;
 }
