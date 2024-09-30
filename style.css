@@ -155,6 +155,12 @@ h1 {
     backface-visibility: hidden;
 }
 
+.booker {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
 .back {
     display: flex;
     justify-content: center;
@@ -222,8 +228,8 @@ h1 {
 .winBtn,
 .failBtn {
     z-index: 90;
-    height: 50px;
-    width: 50px;
+    height: 55px;
+    width: 55px;
     border-radius: 50%;
     position: absolute;
     bottom: 7%;

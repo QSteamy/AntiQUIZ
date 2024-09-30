@@ -1,4 +1,4 @@
-var N = 30;
+var N = 101;
 
 var qtAmount = Array.apply(null, {length: N}).map(Number.call, Number);
 
@@ -53,7 +53,78 @@ var question = [
     '27. Подкрадули',
     '28. Жить в кайф',
     '29. Губы',
-    '30. ГДР Music'
+    '30. ГДР Music',
+    '31. Лорд П',
+    '32. Лоботомия',
+    '33. По едалу',
+    '34. No hook',
+    '35. Поминальный свинг',
+    '36. Sex',
+    '37. Hype boyz',
+    '38. Айван',
+    '39. Поломанные',
+    '40. Заторчал',
+    '41. ПТСР-Squad',
+    '42. Белая ворона',
+    '43. Молитва',
+    '44. Гравити Фолз',
+    '45. Без спецэффектов',
+    '46. Колл-центр',
+    '47. Города',
+    '48. Молодой Грудинин',
+    '49. Тучи',
+    '50. Последний поход',
+    '51. Деньги',
+    '52. Сиротская отрыжка',
+    '53. Сделай мне Grime',
+    '54. Бессонница',
+    '55. Котлован',
+    '56. TikTok Москвички',
+    '57. Битник',
+    '58. Сквош',
+    '59. Эффект бабочки',
+    '60. АК',
+    '61. Титаник',
+    '62. Берег',
+    '63. Мегаломаны',
+    '64. Ненавижу любовь',
+    '65. Улица слёз',
+    '66. Русский фонк',
+    '67. Дансинг',
+    '68. Я пытался',
+    '69. Кенигсберг',
+    '70. Клюв',
+    '71. Жить в кайф-2',
+    '72. Номера',
+    '73. Звук',
+    '74. Гобзавр',
+    '75. Гвардейцы Кардинала',
+    '76. Чили',
+    '77. Дрифт',
+    '78. Антихайп Underground',
+    '79. Всё, что мне нужно',
+    '80. Классик',
+    '81. Зашутился',
+    '82. Пусть говорят-2',
+    '83. Зима-2030',
+    '84. Бридж',
+    '85. Вип',
+    '86. Старые поэты',
+    '87. Тамагочи',
+    '88. Пустое',
+    '89. Детка',
+    '90. Душный',
+    '91. Постирония всерьёз',
+    '92. Виагра',
+    '93. Замок Антихайпа',
+    '94. По России',
+    '95. Вебкам',
+    '96. Дао',
+    '97. В грязи',
+    '98. Мечты о падении',
+    '99. Трихана',
+    '100. Прощай антихайп',
+    '101. Antihypeoutro'
 ];
 
 var crit1 = [
@@ -86,7 +157,78 @@ var crit1 = [
     'Замай и Слава КПСС противопоставляют свои взгляды на жизнь и любовь.',
     'Перед нами текст песни, которая рассказывает о жизни и творчестве Славы КПСС и Замая.',
     'Автор песни, Слава КПСС, выражает свое разочарование и критику в адрес девушки.',
-    'В тексте упоминаются Пушкин и Катя Лель, которые сравниваются с КНДР.'
+    'В тексте упоминаются Пушкин и Катя Лель, которые сравниваются с КНДР.',
+    'Песня содержит много рифмованных строк и смешных моментов.',
+    'Перед нами текст песни, которая рассказывает о человеке, который испытывает проблемы в отношениях.',
+    'В песне также есть отсылки к другим событиям и персонажам, таким как Антихайп, НБП Лимонов, Азиз Аминович и другие.',
+    'Перед нами текст песни, которая рассказывает о жизни и творчестве Славы КПСС и Замая.',
+    'Перед нами текст песни, которая рассказывает о двух исполнителях, Замае и Славе КПСС, и их отношении к смерти.',
+    'В песне есть элементы юмора и иронии, а также отсылки к стереотипам и порнографии.',
+    'В песне есть шутки и панчи, связанные с религией, политикой и социальными группами.',
+    'В тексте упоминаются известные личности, такие как Владимир Козырев и Глеб Морев.',
+    'Перед нами текст песни, которая рассказывает о панк-группе и их антихайпе.',
+    'Перед нами текст песни, которая рассказывает о влюбленности и зависимости от девушки.',
+    'В тексте песни есть отсылки к 90-м годам и к эпохе говнарей.',
+    'В тексте есть отсылки к Антону Красовскому, Дудю и другим знаменитостям.',
+    'Песня содержит нецензурную лексику и критикует законы и религию.',
+    'Песня выражает благодарность за проведенное время вместе и память о мультфильме.',
+    'Оба исполнителя смешивают кровь и создают свой собственный стиль.',
+    'Песня содержит элементы юмора и сатиры, а также сексуальные шутки.',
+    'Упоминаются проблемы с дорогами, ДТП и другие неприятные ситуации.',
+    'В тексте песни есть отсылки к другим политическим деятелям, таким как Трамп и Дудь.',
+    'Перед нами текст песни, которая рассказывает о жизни и проблемах людей.',
+    'В тексте также есть отсылки к Хабаровскому, Хабаровским и Хабаровским.',
+    'В конце рэпер шутит и говорит <b>Пау!</b>',
+    'Перед нами текст песни, которая рассказывает о жизни автора и его отношении к жизни.',
+    'Замай, родом из России, хочет дать селянам по стилю, но пока не может.',
+    'В тексте песни есть отсылки к прошлому, воспоминаниям и размышлениям о будущем.',
+    'В тексте есть отсылки к событиям и персонажам из реальной жизни.',
+    'В песне упоминается символика Louis Vuitton и другие бренды.',
+    'В тексте также упоминаются переживания автора, связанные с женщинами и творчеством.',
+    'Перед нами текст песни, которая рассказывает о рэпе и его представителях.',
+    'Замай обещает вернуться, даже если его считают мертвым.',
+    'В песне также присутствуют отсылки к другим культурным и политическим явлениям, таким как Морозко, Царь Мидас, Аушвиц и Фабрика фюрера.',
+    'В тексте есть отсылки к другим исполнителям, таким как Иван Денисыч, Антон Носик, Жёлудь Роман и другие.',
+    'Песня представляет собой психический театр, где они являются зрителями.',
+    'В тексте есть отсылки к другим исполнителям, таким как Кендрик Ламар и Раммштайн.',
+    'В тексте песни присутствуют отсылки к различным событиям и ситуациям из жизни автора.',
+    'Перед нами текст песни, которая рассказывает о двух персонажах, Замае и Славе КПСС.',
+    'Песня начинается с вступления и припева, в котором упоминается КПСС и Замай.',
+    'В тексте есть отсылки к другим исполнителям, таким как Моргенштерн, Хаски и Олег Майами.',
+    'Перед нами текст песни, которая рассказывает о неудачных попытках полюбить и изменить свою жизнь.',
+    'Перед нами текст песни, которая рассказывает о двух исполнителях, Замай и Слава КПСС.',
+    'Песня начинается с вступления и продолжается в двух куплетах.',
+    'Перед нами текст песни, которая рассказывает о двух исполнителях, Замае и Славе КПСС.',
+    'Перед нами текст песни, которая рассказывает о двух мужчинах, которые не могут справиться с проблемами в отношениях.',
+    'Песня имеет припев, который повторяется дважды.',
+    'Он сравнивает себя с Маргиналом, который учит жизни на стримах.',
+    'В песне есть отсылка к элитному полку и шпаге.',
+    'Перед нами текст песни, которая рассказывает о человеке, страдающем от тревожно-депрессивного расстройства.',
+    'В тексте есть отсылки к другим исполнителям, таким как Юрий Дудь и Юрий Каплан.',
+    'Перед нами текст песни, которая рассказывает о лирической теме и олдскульном рэпе.',
+    'Перед нами текст песни, которая рассказывает о жизни рэпера Замая и Славы КПСС.',
+    'Песня содержит много ругательств и не рекомендуется для прослушивания лицам младше 16 лет.',
+    'Перед нами текст песни, которая рассказывает о человеке, который не защитил свой диплом.',
+    'Перед нами текст песни, которая рассказывает о жизни двух людей, Славы КПСС и Замая.',
+    'В тексте песни есть отсылки к событиям, которые произошли в 2020 и 2010 годах.',
+    'Перед нами текст песни, которая рассказывает о бридже и его уничтожении.',
+    'Перед нами текст песни, которая рассказывает о жизни Славы КПСС и Хана Замая.',
+    'В песне упоминаются Максим Амелин, Дима Хаски, Лермонтов, Драгомощенко, Оксимирон, Вознесенский, Бродский, Михаил Ерёмин, ATL-Есенин.',
+    'Автор песни - Слава КПСС, а второй исполнитель - Замай.',
+    'Автор песни, Замай, сравнивает себя с молодым человеком, будто ему 40 лет.',
+    'Перед нами текст песни, которая рассказывает о девушке, которая не умеет любить и постоянно говорит о любви, но не показывает её.',
+    'Перед нами текст песни, которая рассказывает о двух рэперах, Славе КПСС и Замай.',
+    'В тексте есть отсылки к Олегу Тинькову, MF Док, MF DOOM и другим персонажам.',
+    'Перед нами текст песни, которая рассказывает о двух людях, которые не хотят расставаться друг с другом.',
+    'В тексте песни есть элементы БДСМ, оскорбления и унижения.',
+    'В тексте есть отсылки к другим исполнителям, таким как Тараканы и Джуби.',
+    'Песня начинается с рассказа о жизни Дарьи Зарыковской, которая переходит от одного молодого человека к другому.',
+    'Перед нами текст песни, которая рассказывает о жизни и творчестве музыкантов.',
+    'Перед нами текст песни, которая рассказывает о человеке, который готов сжечь весь мир ради любви.',
+    'В песне есть два исполнителя: Замай и Слава КПСС.',
+    'Перед нами текст песни, которая рассказывает о жизни в России и против власти.',
+    'В песне упоминаются различные события и персонажи из мира хип-хопа.',
+    'Перед нами текст песни, которая рассказывает о двух рэперах, Славе и Замае, и их творчестве.'
 ];
 
 var crit2 = [
@@ -119,7 +261,78 @@ var crit2 = [
     'Замай выражает свою ненависть к Питеру и его городу, а также критикует музыку и общество.',
     'В тексте песни присутствует много отсылок к другим исполнителям и событиям в мире музыки.',
     'В тексте песни также присутствует второй исполнитель, Замай, который также выражает свое недовольство и критику.',
-    'Замай и Слава КПСС являются братьями Диаз в шестиугольной клетке.'
+    'Замай и Слава КПСС являются братьями Диаз в шестиугольной клетке.',
+    'В тексте также есть упоминания других исполнителей, таких как Слава КПСС и Замай.',
+    'В тексте песни есть отсылки к Цою, рэпу, гитарам и другим аспектам музыки.',
+    'В песне есть хитрые улыбки и пиратские прищуры, а также боксерки, которые надевает поэт-боксер.',
+    'Песня содержит много шуток и намеков на различные аспекты жизни и творчества.',
+    'Замай радуется, что хотя бы попытался склеить людей, и выражает свою радость на смертельном одре.',
+    'В тексте песни есть отсылки к другим исполнителям, таким как Lil Krystalll и Путин-Хаски.',
+    'В тексте есть антихайп и оверхайп, а также упоминание Остина Пауэрса и Power Rangers.',
+    'В тексте также упоминаются различные пакеты, связанные с различными событиями и ситуациями.',
+    'Группа утверждает, что они являются самыми панками и несут панк-культуру.',
+    'В тексте упоминаются проблемы и предательство, а также попытка справиться с ними.',
+    'В тексте также есть отсылки к Зиновии Райх и к русскому характеру.',
+    'Песня призывает быть проще, не напрягаться и обучаться.',
+    'Песня разделена на куплеты и припевы, а также содержит несколько бродвейских элементов.',
+    'В тексте упоминаются различные события и ситуации из мультсериала.',
+    'Замай и Слава КПСС являются представителями андеграунда и мейнстрима.',
+    'В песне также присутствует Замай, который также исполняет свою часть.',
+    'В тексте также присутствует анархия для богатых и критика в отношении политиков и их решений.',
+    'В тексте также есть отсылки к другим политическим деятелям, таким как Трамп и Дудь.',
+    'В тексте также присутствуют отсылки к социальным проблемам и политическим событиям.',
+    'В тексте есть отсылки к мемам и паблик, а также к Кракену, Андрею Замаю и его топору.',
+    'Рэпер шутит и иронизирует над собой и своим положением.',
+    'Автор описывает свою жизнь как неудавшуюся, но он не создал ничего стоящего.',
+    'Перед нами текст песни, которая рассказывает о двух рэперах, Замае и Славе КПСС, и их желании получить грайм.',
+    'В конце текста автор выражает надежду на то, что бессонница может дать ему бессмертие и учащенный пульс.',
+    'В тексте также присутствуют отсылки к антихайпу и политическим событиям.',
+    'В конце песни звучит аутро, повторяющее название и содержание припева.',
+    'В тексте песни упоминаются различные персонажи, включая Замая, Славу КПСС, Виктора СД и Букера Д Фреда.',
+    'В тексте есть критика других рэперов и их музыки.',
+    'Слава КПСС говорит о своей жизни, как о постоянной погоне за новыми впечатлениями.',
+    "Песня выражает протест против гомофобных порядков и критикует гомофобную политику в России.",
+    'В тексте также есть отсылки к хип-хопу и Прусту.',
+    'Песня выражает их разочарование и страдание.',
+    'Песня содержит много нецензурной лексики и не подходит для пересказа в формате тезисов.',
+    'Автор песни, Слава КПСС, выражает свое отвращение к подобным песням и желает смерти влюбленным парам.',
+    'Слава КПСС - персонаж, который верил в себя и свои силы, но в итоге стал наркоманом и алкоголиком.',
+    'В тексте также присутствуют упоминания о русской мафии, балалайке, КГБ и других аспектах российской культуры.',
+    'Текст песни представляет собой набор рифмованных строк, которые не имеют четкой структуры или сюжета.',
+    'Он также не смог изменить свою жизнь и встать пораньше, меньше сидеть в интернете и больше хейтить неваляшек.',
+    'Песня представляет собой антихайп, который является современным искусством.',
+    'В тексте песни есть отсылки к другим исполнителям, таким как Pharaoh, Кирилл Разлогов, Crazy Mega Hell и Maximax.',
+    'Песня представляет собой антихайп и критику капитализма.',
+    'Один из героев, Слава КПСС, хочет получить чек на миллион и не хочет слушать советы другого персонажа, Замая.',
+    'В тексте песни есть отсылки к другим музыкантам, таким как Баста и Гуф.',
+    'В тексте также есть биопроблемы и снобизм.',
+    'В тексте также есть рифмы и панчи, которые могут быть оскорбительными для некоторых людей.',
+    'Он пытается найти смысл в своей жизни, но не может его найти.',
+    'В песне также упоминаются политические события и ситуации, связанные с хайпом.',
+    'В песне также есть отсылки к различным годам и событиям, которые были важными для авторов.',
+    'Замай и Слава КПСС - известные рэперы, которые часто сталкиваются с критикой и противостоянием.',
+    'В тексте также присутствуют отсылки к другим исполнителям, таким как Кизару и Schutzstaffeln.',
+    'В тексте также есть шутки о жизни и шоу-бизнесе, а также о лживых ртах и пиаре.',
+    'Они рассказывают о своей жизни, своих достижениях и разочарованиях.',
+    'В песне рассказывается о жизни и переживаниях героев, которые сталкиваются с различными трудностями и проблемами.',
+    'Бридж не нравится Оксимирону, а также упоминается его антипатия к бриджу.',
+    'В тексте есть упоминания светских тусов, алкоголя, наркотика и других аспектов жизни знаменитостей.',
+    'В тексте песни также присутствуют грубые и ироничные высказывания о поэтике Хармса и о том, как Замай убил "мертвый язычок".',
+    'Перед нами текст песни, которая рассказывает о жизни и смерти.',
+    'В песне также присутствует куплей 2, который рассказывает о своей сестре и о том, как он выдумал историю с сестрой и LEGO.',
+    'В тексте песни есть отсылки к другим исполнителям, таким как Звери и Илья Соболев.',
+    'Они обсуждают свои разногласия и хотят мириться.',
+    'В тексте также есть отсылки к баскетболу, TEKKEN-Flow и другим аспектам популярной культуры.',
+    'Песня представляет собой смесь рэпа и поп-музыки, с акцентом на любовь и боль.',
+    'В тексте также есть элементы политики и социальных проблем, таких как 120 дней Содома и президент Борис Замаев.',
+    'Автор песни критикует поп-музыку и религию, но также выражает свою любовь к хип-хопу.',
+    'В тексте также есть отсылки к хип-хопу и баттл-рэпу, а также к переходу на Onlyfans.',
+    'В тексте присутствует критика и ирония, связанные с властью и свободой.',
+    'В тексте есть отсылки к Петру Павленскому и его акции с поджогом коровы.',
+    'Замай рассказывает о мечтах, которые разбились о гений.',
+    'Песня представляет собой протест против власти и идеалов.',
+    'В тексте песни также упоминаются различные лейблы и фестивали.',
+    'Они сравнивают свой рэп с произведениями великих писателей и литераторов, таких как Набоков и Борхес.'
 ];
 
 var crit3 = [
@@ -152,7 +365,78 @@ var crit3 = [
     'Слава КПСС рассказывает о своей жизни и поэзии, а также о своих отношениях с девушкой.',
     'В целом, текст песни представляет собой набор стихов и рифм, которые отражают отношение к жизни и творчеству Славы КПСС и Замая.',
     'В конце песни, Слава КПСС и Замай выражают свое недовольство и критику, а также называют цену девушке - один рубль.',
-    'В тексте есть отсылки к граффити на Берлинской стене и к пакету Яровой.'
+    'В тексте есть отсылки к граффити на Берлинской стене и к пакету Яровой.',
+    'В тексте есть много оскорблений и насмешек над лордом П.',
+    'В конце текста есть аутро, которое повторяет тему трезвого хуёвства.',
+    'В конце текста есть Антихайп и припев, который повторяется несколько раз.',
+    'Песня не рекомендуется для прослушивания лицам младше 18 лет.',
+    'В песне также присутствует тема смерти и похорон, а также связь с коммунизмом и наркотиками.',
+    'Песня представляет собой смесь юмора, иронии и сексуального содержания.',
+    'В тексте также есть отсылки к другим исполнителям, таким как Поперечный и Лизер.',
+    'В тексте также упоминаются известные события, такие как перепев песни "Букет" и борьба за кавказский балет.',
+    'В тексте упоминаются различные города и события, связанные с панк-культурой.',
+    'Песня представляет собой смесь эмоций и переживаний, связанных с любовью и зависимостью.',
+    'В тексте есть отсылки к эволюции и к Чарльзу Дарвину.',
+    'В конце текста упоминается Антихайп и его дядьки.',
+    'Перед нами текст песни, которая рассказывает о молящемся человеке, который просит Бога наказать грешников и пидорасов.',
+    'В песне также присутствуют элементы, связанные с поломанным Adblock и его влиянием на восприятие мультфильма.',
+    'Песня рассказывает о том, как они создают свой собственный стиль и спецэффекты без рекламы и спецэффектов.',
+    'В конце песни Замай говорит о секс-услугах и шутит о различных видах секса.',
+    'В конце песни упоминается жизнь как "песок" и серый волк, меняющий жизнь.',
+    'Текст песни рассказывает о молодом Грудинине и его приключениях.',
+    'Песня представляет собой сочетание юмора и лирики, с акцентом на жизненных трудностях и сытости.',
+    'В песне также есть отсылки к Лейпцигу, битве за Лейпциг и нацистскому Эдельвейсу.',
+    'Он хочет петь анархо-панк и жить на дивиденды от Сбербанка.',
+    'В конце текста автор пердит в бане.',
+    'В конце текста Слава КПСС говорит, что он педик, что может быть отсылкой к его реальной личности.',
+    'Автор выражает свою благодарность за возможность жить и писать тексты, несмотря на бессонницу.',
+    'В песне присутствует много рифм и метафор, связанных с котлованом и рэпом.',
+    'В песне упоминается символика Louis Vuitton и другие бренды.',
+    'Перед нами текст песни, которая рассказывает о временах, прошедших для автора.',
+    'В песне упоминается сквош, который является популярным видом спорта в России.',
+    'Песня заканчивается припевом о Созвездии Льва и бабочке, символизирующей любовь и верность.',
+    'Песня представляет собой пародию на песню "АК-47" и критикует гомофобные порядки в России.',
+    'Капитан тонет, а корабль поднимается вверх.',
+    'Они не знают, какая рыба быстрее всех в океане и зачем.',
+    'Перед нами текст песни, которая рассказывает о двух мегаломанах.',
+    'В песне также присутствует куплет от второго участника группы, Замая, который также выражает свою ненависть к песням о любви.',
+    'В тексте песни есть отсылки к страху, наркотикам и алкоголизму.',
+    'В конце песни есть призыв подписаться на patreon исполнителей.',
+    'В конце текста есть отсылка к другому произведению, возможно, к песне или альбому.',
+    'Оба участника группы признают, что не смогли почувствовать хоть что-то к объекту своих попыток.',
+    'В тексте также присутствуют отсылки к различным музыкальным стилям, таким как киса, рэп и рок.',
+    'В песне также упоминаются другие люди, такие как ФСБ, карлик и Abbalbisk.',
+    'Песня содержит много ругательств и критику капитализма.',
+    'Оба героя сталкиваются с проблемами в отношениях и хотят получить то, что хотят, не обращая внимания на чувства других людей.',
+    'В тексте также присутствуют элементы феминизма и веганства.',
+    'Гобзавр - это восторженный старик-дебил, который любит литературу и учится у Маргинала.',
+    'В тексте упоминается раздеться и шпага, на которой находится сестра, брат, отец и мать.',
+    'Он встречает Новый год в своей постели, и ему больше незачем любить кого-то рядом.',
+    'В песне есть отсылки к различным культурным и социальным явлениям, таким как рэп-боссы и коммунистическое движение.',
+    'В песне присутствует упоминание о лирической теме, которая может быть связана с законом РФ.',
+    'Замай и Слава КПСС являются босоногими крестьянами, избалованными и избалованными, как барчук.',
+    'Замай и Слава КПСС сравнивают себя с известными личностями, такими как Антоша Чехов, Ильмар Ильмар, Сандра Насик и другими.',
+    'В конце текста есть два припева, которые повторяют основную тему о незащищенном дипломе и постироническом рэпе',
+    'В конце песни они поют о том, что они живы и продолжают петь об этом вживую.',
+    'Песня содержит элементы фантастики и иронии, а также представляет собой размышления о времени и его влиянии на людей.',
+    'В конце текста упоминается, что бридж протух и его припев становится круче.',
+    'В тексте также есть упоминания о новых хитах и новых пиздюках.',
+    'В конце песни упоминаются ночная Москва, брат напас дал, тэг Жан Мишель и травмат в бардачке.',
+    'В тексте песни есть отсылки к реальным событиям и ситуациям, таким как наркотическая зависимость и суицид.',
+    'Песня имеет ироничный и ироничный характер, и автор призывает не становиться взрослым.',
+    'В тексте также есть упоминания о шлюхах, лесбухах и других персонажах.',
+    'В конце песни, Замай выражает свое недовольство по поводу подорожника и просит его вернуть.',
+    'В тексте также есть отсылка к Лепсу и Лободе.',
+    'Песня заканчивается словами о том, что автор не хочет оставлять свою любовь и просит не делать этого.',
+    'Главное правило группы - оставить надежду и снять всю одежду.',
+    'В тексте присутствует критика и оскорбления, связанные с другими исполнителями и социальными проблемами.',
+    'В песне есть несколько панчлайнов, связанных с продажей своей жопы и хайпом.',
+    'В тексте также есть критика и ирония, связанные с обществом и его ценностями.',
+    'В тексте также есть отсылки к Гаутаме и его учению о пути к просветлению.',
+    'Слава КПСС также делится своими мечтами и рассказывает о своих достижениях.',
+    'Песня выражает свободу и анархию, а также критику власти и идеалов.',
+    'Замай также присутствует в песне и выражает свои чувства по поводу Антихайпа.',
+    'В конце песни есть припев, который призывает слушателей не включать песню и обещает, что они останутся в истории.'
 ];
 
 /*---------------------------------Database---------------------------------*/
@@ -187,6 +471,77 @@ var qt26 = question[ranNums[26]];
 var qt27 = question[ranNums[27]];
 var qt28 = question[ranNums[28]];
 var qt29 = question[ranNums[29]];
+var qt30 = question[ranNums[30]];
+var qt31 = question[ranNums[31]];
+var qt32 = question[ranNums[32]];
+var qt33 = question[ranNums[33]];
+var qt34 = question[ranNums[34]];
+var qt35 = question[ranNums[35]];
+var qt36 = question[ranNums[36]];
+var qt37 = question[ranNums[37]];
+var qt38 = question[ranNums[38]];
+var qt39 = question[ranNums[39]];
+var qt40 = question[ranNums[40]];
+var qt41 = question[ranNums[41]];
+var qt42 = question[ranNums[42]];
+var qt43 = question[ranNums[43]];
+var qt44 = question[ranNums[44]];
+var qt45 = question[ranNums[45]];
+var qt46 = question[ranNums[46]];
+var qt47 = question[ranNums[47]];
+var qt48 = question[ranNums[48]];
+var qt49 = question[ranNums[49]];
+var qt50 = question[ranNums[50]];
+var qt51 = question[ranNums[51]];
+var qt52 = question[ranNums[52]];
+var qt53 = question[ranNums[53]];
+var qt54 = question[ranNums[54]];
+var qt55 = question[ranNums[55]];
+var qt56 = question[ranNums[56]];
+var qt57 = question[ranNums[57]];
+var qt58 = question[ranNums[58]];
+var qt59 = question[ranNums[59]];
+var qt60 = question[ranNums[60]];
+var qt61 = question[ranNums[61]];
+var qt62 = question[ranNums[62]];
+var qt63 = question[ranNums[63]];
+var qt64 = question[ranNums[64]];
+var qt65 = question[ranNums[65]];
+var qt66 = question[ranNums[66]];
+var qt67 = question[ranNums[67]];
+var qt68 = question[ranNums[68]];
+var qt69 = question[ranNums[69]];
+var qt70 = question[ranNums[70]];
+var qt71 = question[ranNums[71]];
+var qt72 = question[ranNums[72]];
+var qt73 = question[ranNums[73]];
+var qt74 = question[ranNums[74]];
+var qt75 = question[ranNums[75]];
+var qt76 = question[ranNums[76]];
+var qt77 = question[ranNums[77]];
+var qt78 = question[ranNums[78]];
+var qt79 = question[ranNums[79]];
+var qt80 = question[ranNums[80]];
+var qt81 = question[ranNums[81]];
+var qt82 = question[ranNums[82]];
+var qt83 = question[ranNums[83]];
+var qt84 = question[ranNums[84]];
+var qt85 = question[ranNums[85]];
+var qt86 = question[ranNums[86]];
+var qt87 = question[ranNums[87]];
+var qt88 = question[ranNums[88]];
+var qt89 = question[ranNums[89]];
+var qt90 = question[ranNums[90]];
+var qt91 = question[ranNums[91]];
+var qt92 = question[ranNums[92]];
+var qt93 = question[ranNums[93]];
+var qt94 = question[ranNums[94]];
+var qt95 = question[ranNums[95]];
+var qt96 = question[ranNums[96]];
+var qt97 = question[ranNums[97]];
+var qt98 = question[ranNums[98]];
+var qt99 = question[ranNums[99]];
+var qt100 = question[ranNums[100]];
 
 document.getElementById("question0").innerHTML = qt0;
 document.getElementById("question1").innerHTML = qt1;
@@ -218,7 +573,77 @@ document.getElementById("question26").innerHTML = qt26;
 document.getElementById("question27").innerHTML = qt27;
 document.getElementById("question28").innerHTML = qt28;
 document.getElementById("question29").innerHTML = qt29;
-
+document.getElementById("question30").innerHTML = qt30;
+document.getElementById("question31").innerHTML = qt31;
+document.getElementById("question32").innerHTML = qt32;
+document.getElementById("question33").innerHTML = qt33;
+document.getElementById("question34").innerHTML = qt34;
+document.getElementById("question35").innerHTML = qt35;
+document.getElementById("question36").innerHTML = qt36;
+document.getElementById("question37").innerHTML = qt37;
+document.getElementById("question38").innerHTML = qt38;
+document.getElementById("question39").innerHTML = qt39;
+document.getElementById("question40").innerHTML = qt40;
+document.getElementById("question41").innerHTML = qt41;
+document.getElementById("question42").innerHTML = qt42;
+document.getElementById("question43").innerHTML = qt43;
+document.getElementById("question44").innerHTML = qt44;
+document.getElementById("question45").innerHTML = qt45;
+document.getElementById("question46").innerHTML = qt46;
+document.getElementById("question47").innerHTML = qt47;
+document.getElementById("question48").innerHTML = qt48;
+document.getElementById("question49").innerHTML = qt49;
+document.getElementById("question50").innerHTML = qt50;
+document.getElementById("question51").innerHTML = qt51;
+document.getElementById("question52").innerHTML = qt52;
+document.getElementById("question53").innerHTML = qt53;
+document.getElementById("question54").innerHTML = qt54;
+document.getElementById("question55").innerHTML = qt55;
+document.getElementById("question56").innerHTML = qt56;
+document.getElementById("question57").innerHTML = qt57;
+document.getElementById("question58").innerHTML = qt58;
+document.getElementById("question59").innerHTML = qt59;
+document.getElementById("question60").innerHTML = qt60;
+document.getElementById("question61").innerHTML = qt61;
+document.getElementById("question62").innerHTML = qt62;
+document.getElementById("question63").innerHTML = qt63;
+document.getElementById("question64").innerHTML = qt64;
+document.getElementById("question65").innerHTML = qt65;
+document.getElementById("question66").innerHTML = qt66;
+document.getElementById("question67").innerHTML = qt67;
+document.getElementById("question68").innerHTML = qt68;
+document.getElementById("question69").innerHTML = qt69;
+document.getElementById("question70").innerHTML = qt70;
+document.getElementById("question71").innerHTML = qt71;
+document.getElementById("question72").innerHTML = qt72;
+document.getElementById("question73").innerHTML = qt73;
+document.getElementById("question74").innerHTML = qt74;
+document.getElementById("question75").innerHTML = qt75;
+document.getElementById("question76").innerHTML = qt76;
+document.getElementById("question77").innerHTML = qt77;
+document.getElementById("question78").innerHTML = qt78;
+document.getElementById("question79").innerHTML = qt79;
+document.getElementById("question80").innerHTML = qt80;
+document.getElementById("question81").innerHTML = qt81;
+document.getElementById("question82").innerHTML = qt82;
+document.getElementById("question83").innerHTML = qt83;
+document.getElementById("question84").innerHTML = qt84;
+document.getElementById("question85").innerHTML = qt85;
+document.getElementById("question86").innerHTML = qt86;
+document.getElementById("question87").innerHTML = qt87;
+document.getElementById("question88").innerHTML = qt88;
+document.getElementById("question89").innerHTML = qt89;
+document.getElementById("question90").innerHTML = qt90;
+document.getElementById("question91").innerHTML = qt91;
+document.getElementById("question92").innerHTML = qt92;
+document.getElementById("question93").innerHTML = qt93;
+document.getElementById("question94").innerHTML = qt94;
+document.getElementById("question95").innerHTML = qt95;
+document.getElementById("question96").innerHTML = qt96;
+document.getElementById("question97").innerHTML = qt97;
+document.getElementById("question98").innerHTML = qt98;
+document.getElementById("question99").innerHTML = qt99;
+document.getElementById("question100").innerHTML = qt100;
 
 var cr01 = crit1[ranNums[0]];
 var cr11 = crit1[ranNums[1]];
@@ -250,6 +675,77 @@ var cr261 = crit1[ranNums[26]];
 var cr271 = crit1[ranNums[27]];
 var cr281 = crit1[ranNums[28]];
 var cr291 = crit1[ranNums[29]];
+var cr301 = crit1[ranNums[30]];
+var cr311 = crit1[ranNums[31]];
+var cr321 = crit1[ranNums[32]];
+var cr331 = crit1[ranNums[33]];
+var cr341 = crit1[ranNums[34]];
+var cr351 = crit1[ranNums[35]];
+var cr361 = crit1[ranNums[36]];
+var cr371 = crit1[ranNums[37]];
+var cr381 = crit1[ranNums[38]];
+var cr391 = crit1[ranNums[39]];
+var cr401 = crit1[ranNums[40]];
+var cr411 = crit1[ranNums[41]];
+var cr421 = crit1[ranNums[42]];
+var cr431 = crit1[ranNums[43]];
+var cr441 = crit1[ranNums[44]];
+var cr451 = crit1[ranNums[45]];
+var cr461 = crit1[ranNums[46]];
+var cr471 = crit1[ranNums[47]];
+var cr481 = crit1[ranNums[48]];
+var cr491 = crit1[ranNums[49]];
+var cr501 = crit1[ranNums[50]];
+var cr511 = crit1[ranNums[51]];
+var cr521 = crit1[ranNums[52]];
+var cr531 = crit1[ranNums[53]];
+var cr541 = crit1[ranNums[54]];
+var cr551 = crit1[ranNums[55]];
+var cr561 = crit1[ranNums[56]];
+var cr571 = crit1[ranNums[57]];
+var cr581 = crit1[ranNums[58]];
+var cr591 = crit1[ranNums[59]];
+var cr601 = crit1[ranNums[60]];
+var cr611 = crit1[ranNums[61]];
+var cr621 = crit1[ranNums[62]];
+var cr631 = crit1[ranNums[63]];
+var cr641 = crit1[ranNums[64]];
+var cr651 = crit1[ranNums[65]];
+var cr661 = crit1[ranNums[66]];
+var cr671 = crit1[ranNums[67]];
+var cr681 = crit1[ranNums[68]];
+var cr691 = crit1[ranNums[69]];
+var cr701 = crit1[ranNums[70]];
+var cr711 = crit1[ranNums[71]];
+var cr721 = crit1[ranNums[72]];
+var cr731 = crit1[ranNums[73]];
+var cr741 = crit1[ranNums[74]];
+var cr751 = crit1[ranNums[75]];
+var cr761 = crit1[ranNums[76]];
+var cr771 = crit1[ranNums[77]];
+var cr781 = crit1[ranNums[78]];
+var cr791 = crit1[ranNums[79]];
+var cr801 = crit1[ranNums[80]];
+var cr811 = crit1[ranNums[81]];
+var cr821 = crit1[ranNums[82]];
+var cr831 = crit1[ranNums[83]];
+var cr841 = crit1[ranNums[84]];
+var cr851 = crit1[ranNums[85]];
+var cr861 = crit1[ranNums[86]];
+var cr871 = crit1[ranNums[87]];
+var cr881 = crit1[ranNums[88]];
+var cr891 = crit1[ranNums[89]];
+var cr901 = crit1[ranNums[90]];
+var cr911 = crit1[ranNums[91]];
+var cr921 = crit1[ranNums[92]];
+var cr931 = crit1[ranNums[93]];
+var cr941 = crit1[ranNums[94]];
+var cr951 = crit1[ranNums[95]];
+var cr961 = crit1[ranNums[96]];
+var cr971 = crit1[ranNums[97]];
+var cr981 = crit1[ranNums[98]];
+var cr991 = crit1[ranNums[99]];
+var cr1001 = crit1[ranNums[100]];
 
 document.getElementById("crit01").innerHTML = cr01;
 document.getElementById("crit11").innerHTML = cr11;
@@ -281,6 +777,77 @@ document.getElementById("crit261").innerHTML = cr261;
 document.getElementById("crit271").innerHTML = cr271;
 document.getElementById("crit281").innerHTML = cr281;
 document.getElementById("crit291").innerHTML = cr291;
+document.getElementById("crit301").innerHTML = cr301;
+document.getElementById("crit311").innerHTML = cr311;
+document.getElementById("crit321").innerHTML = cr321;
+document.getElementById("crit331").innerHTML = cr331;
+document.getElementById("crit341").innerHTML = cr341;
+document.getElementById("crit351").innerHTML = cr351;
+document.getElementById("crit361").innerHTML = cr361;
+document.getElementById("crit371").innerHTML = cr371;
+document.getElementById("crit381").innerHTML = cr381;
+document.getElementById("crit391").innerHTML = cr391;
+document.getElementById("crit401").innerHTML = cr401;
+document.getElementById("crit411").innerHTML = cr411;
+document.getElementById("crit421").innerHTML = cr421;
+document.getElementById("crit431").innerHTML = cr431;
+document.getElementById("crit441").innerHTML = cr441;
+document.getElementById("crit451").innerHTML = cr451;
+document.getElementById("crit461").innerHTML = cr461;
+document.getElementById("crit471").innerHTML = cr471;
+document.getElementById("crit481").innerHTML = cr481;
+document.getElementById("crit491").innerHTML = cr491;
+document.getElementById("crit501").innerHTML = cr501;
+document.getElementById("crit511").innerHTML = cr511;
+document.getElementById("crit521").innerHTML = cr521;
+document.getElementById("crit531").innerHTML = cr531;
+document.getElementById("crit541").innerHTML = cr541;
+document.getElementById("crit551").innerHTML = cr551;
+document.getElementById("crit561").innerHTML = cr561;
+document.getElementById("crit571").innerHTML = cr571;
+document.getElementById("crit581").innerHTML = cr581;
+document.getElementById("crit591").innerHTML = cr591;
+document.getElementById("crit601").innerHTML = cr601;
+document.getElementById("crit611").innerHTML = cr611;
+document.getElementById("crit621").innerHTML = cr621;
+document.getElementById("crit631").innerHTML = cr631;
+document.getElementById("crit641").innerHTML = cr641;
+document.getElementById("crit651").innerHTML = cr651;
+document.getElementById("crit661").innerHTML = cr661;
+document.getElementById("crit671").innerHTML = cr671;
+document.getElementById("crit681").innerHTML = cr681;
+document.getElementById("crit691").innerHTML = cr691;
+document.getElementById("crit701").innerHTML = cr701;
+document.getElementById("crit711").innerHTML = cr711;
+document.getElementById("crit721").innerHTML = cr721;
+document.getElementById("crit731").innerHTML = cr731;
+document.getElementById("crit741").innerHTML = cr741;
+document.getElementById("crit751").innerHTML = cr751;
+document.getElementById("crit761").innerHTML = cr761;
+document.getElementById("crit771").innerHTML = cr771;
+document.getElementById("crit781").innerHTML = cr781;
+document.getElementById("crit791").innerHTML = cr791;
+document.getElementById("crit801").innerHTML = cr801;
+document.getElementById("crit811").innerHTML = cr811;
+document.getElementById("crit821").innerHTML = cr821;
+document.getElementById("crit831").innerHTML = cr831;
+document.getElementById("crit841").innerHTML = cr841;
+document.getElementById("crit851").innerHTML = cr851;
+document.getElementById("crit861").innerHTML = cr861;
+document.getElementById("crit871").innerHTML = cr871;
+document.getElementById("crit881").innerHTML = cr881;
+document.getElementById("crit891").innerHTML = cr891;
+document.getElementById("crit901").innerHTML = cr901;
+document.getElementById("crit911").innerHTML = cr911;
+document.getElementById("crit921").innerHTML = cr921;
+document.getElementById("crit931").innerHTML = cr931;
+document.getElementById("crit941").innerHTML = cr941;
+document.getElementById("crit951").innerHTML = cr951;
+document.getElementById("crit961").innerHTML = cr961;
+document.getElementById("crit971").innerHTML = cr971;
+document.getElementById("crit981").innerHTML = cr981;
+document.getElementById("crit991").innerHTML = cr991;
+document.getElementById("crit1001").innerHTML = cr1001;
 
 var cr02 = crit2[ranNums[0]];
 var cr12 = crit2[ranNums[1]];
@@ -312,6 +879,77 @@ var cr262 = crit2[ranNums[26]];
 var cr272 = crit2[ranNums[27]];
 var cr282 = crit2[ranNums[28]];
 var cr292 = crit2[ranNums[29]];
+var cr302 = crit2[ranNums[30]];
+var cr312 = crit2[ranNums[31]];
+var cr322 = crit2[ranNums[32]];
+var cr332 = crit2[ranNums[33]];
+var cr342 = crit2[ranNums[34]];
+var cr352 = crit2[ranNums[35]];
+var cr362 = crit2[ranNums[36]];
+var cr372 = crit2[ranNums[37]];
+var cr382 = crit2[ranNums[38]];
+var cr392 = crit2[ranNums[39]];
+var cr402 = crit2[ranNums[40]];
+var cr412 = crit2[ranNums[41]];
+var cr422 = crit2[ranNums[42]];
+var cr432 = crit2[ranNums[43]];
+var cr442 = crit2[ranNums[44]];
+var cr452 = crit2[ranNums[45]];
+var cr462 = crit2[ranNums[46]];
+var cr472 = crit2[ranNums[47]];
+var cr482 = crit2[ranNums[48]];
+var cr492 = crit2[ranNums[49]];
+var cr502 = crit2[ranNums[50]];
+var cr512 = crit2[ranNums[51]];
+var cr522 = crit2[ranNums[52]];
+var cr532 = crit2[ranNums[53]];
+var cr542 = crit2[ranNums[54]];
+var cr552 = crit2[ranNums[55]];
+var cr562 = crit2[ranNums[56]];
+var cr572 = crit2[ranNums[57]];
+var cr582 = crit2[ranNums[58]];
+var cr592 = crit2[ranNums[59]];
+var cr602 = crit2[ranNums[60]];
+var cr612 = crit2[ranNums[61]];
+var cr622 = crit2[ranNums[62]];
+var cr632 = crit2[ranNums[63]];
+var cr642 = crit2[ranNums[64]];
+var cr652 = crit2[ranNums[65]];
+var cr662 = crit2[ranNums[66]];
+var cr672 = crit2[ranNums[67]];
+var cr682 = crit2[ranNums[68]];
+var cr692 = crit2[ranNums[69]];
+var cr702 = crit2[ranNums[70]];
+var cr712 = crit2[ranNums[71]];
+var cr722 = crit2[ranNums[72]];
+var cr732 = crit2[ranNums[73]];
+var cr742 = crit2[ranNums[74]];
+var cr752 = crit2[ranNums[75]];
+var cr762 = crit2[ranNums[76]];
+var cr772 = crit2[ranNums[77]];
+var cr782 = crit2[ranNums[78]];
+var cr792 = crit2[ranNums[79]];
+var cr802 = crit2[ranNums[80]];
+var cr812 = crit2[ranNums[81]];
+var cr822 = crit2[ranNums[82]];
+var cr832 = crit2[ranNums[83]];
+var cr842 = crit2[ranNums[84]];
+var cr852 = crit2[ranNums[85]];
+var cr862 = crit2[ranNums[86]];
+var cr872 = crit2[ranNums[87]];
+var cr882 = crit2[ranNums[88]];
+var cr892 = crit2[ranNums[89]];
+var cr902 = crit2[ranNums[90]];
+var cr912 = crit2[ranNums[91]];
+var cr922 = crit2[ranNums[92]];
+var cr932 = crit2[ranNums[93]];
+var cr942 = crit2[ranNums[94]];
+var cr952 = crit2[ranNums[95]];
+var cr962 = crit2[ranNums[96]];
+var cr972 = crit2[ranNums[97]];
+var cr982 = crit2[ranNums[98]];
+var cr992 = crit2[ranNums[99]];
+var cr1002 = crit2[ranNums[100]];
 
 document.getElementById("crit02").innerHTML = cr02;
 document.getElementById("crit12").innerHTML = cr12;
@@ -343,6 +981,77 @@ document.getElementById("crit262").innerHTML = cr262;
 document.getElementById("crit272").innerHTML = cr272;
 document.getElementById("crit282").innerHTML = cr282;
 document.getElementById("crit292").innerHTML = cr292;
+document.getElementById("crit302").innerHTML = cr302;
+document.getElementById("crit312").innerHTML = cr312;
+document.getElementById("crit322").innerHTML = cr322;
+document.getElementById("crit332").innerHTML = cr332;
+document.getElementById("crit342").innerHTML = cr342;
+document.getElementById("crit352").innerHTML = cr352;
+document.getElementById("crit362").innerHTML = cr362;
+document.getElementById("crit372").innerHTML = cr372;
+document.getElementById("crit382").innerHTML = cr382;
+document.getElementById("crit392").innerHTML = cr392;
+document.getElementById("crit402").innerHTML = cr402;
+document.getElementById("crit412").innerHTML = cr412;
+document.getElementById("crit422").innerHTML = cr422;
+document.getElementById("crit432").innerHTML = cr432;
+document.getElementById("crit442").innerHTML = cr442;
+document.getElementById("crit452").innerHTML = cr452;
+document.getElementById("crit462").innerHTML = cr462;
+document.getElementById("crit472").innerHTML = cr472;
+document.getElementById("crit482").innerHTML = cr482;
+document.getElementById("crit492").innerHTML = cr492;
+document.getElementById("crit502").innerHTML = cr502;
+document.getElementById("crit512").innerHTML = cr512;
+document.getElementById("crit522").innerHTML = cr522;
+document.getElementById("crit532").innerHTML = cr532;
+document.getElementById("crit542").innerHTML = cr542;
+document.getElementById("crit552").innerHTML = cr552;
+document.getElementById("crit562").innerHTML = cr562;
+document.getElementById("crit572").innerHTML = cr572;
+document.getElementById("crit582").innerHTML = cr582;
+document.getElementById("crit592").innerHTML = cr592;
+document.getElementById("crit602").innerHTML = cr602;
+document.getElementById("crit612").innerHTML = cr612;
+document.getElementById("crit622").innerHTML = cr622;
+document.getElementById("crit632").innerHTML = cr632;
+document.getElementById("crit642").innerHTML = cr642;
+document.getElementById("crit652").innerHTML = cr652;
+document.getElementById("crit662").innerHTML = cr662;
+document.getElementById("crit672").innerHTML = cr672;
+document.getElementById("crit682").innerHTML = cr682;
+document.getElementById("crit692").innerHTML = cr692;
+document.getElementById("crit702").innerHTML = cr702;
+document.getElementById("crit712").innerHTML = cr712;
+document.getElementById("crit722").innerHTML = cr722;
+document.getElementById("crit732").innerHTML = cr732;
+document.getElementById("crit742").innerHTML = cr742;
+document.getElementById("crit752").innerHTML = cr752;
+document.getElementById("crit762").innerHTML = cr762;
+document.getElementById("crit772").innerHTML = cr772;
+document.getElementById("crit782").innerHTML = cr782;
+document.getElementById("crit792").innerHTML = cr792;
+document.getElementById("crit802").innerHTML = cr802;
+document.getElementById("crit812").innerHTML = cr812;
+document.getElementById("crit822").innerHTML = cr822;
+document.getElementById("crit832").innerHTML = cr832;
+document.getElementById("crit842").innerHTML = cr842;
+document.getElementById("crit852").innerHTML = cr852;
+document.getElementById("crit862").innerHTML = cr862;
+document.getElementById("crit872").innerHTML = cr872;
+document.getElementById("crit882").innerHTML = cr882;
+document.getElementById("crit892").innerHTML = cr892;
+document.getElementById("crit902").innerHTML = cr902;
+document.getElementById("crit912").innerHTML = cr912;
+document.getElementById("crit922").innerHTML = cr922;
+document.getElementById("crit932").innerHTML = cr932;
+document.getElementById("crit942").innerHTML = cr942;
+document.getElementById("crit952").innerHTML = cr952;
+document.getElementById("crit962").innerHTML = cr962;
+document.getElementById("crit972").innerHTML = cr972;
+document.getElementById("crit982").innerHTML = cr982;
+document.getElementById("crit992").innerHTML = cr992;
+document.getElementById("crit1002").innerHTML = cr1002;
 
 var cr03 = crit3[ranNums[0]];
 var cr13 = crit3[ranNums[1]];
@@ -374,6 +1083,77 @@ var cr263 = crit3[ranNums[26]];
 var cr273 = crit3[ranNums[27]];
 var cr283 = crit3[ranNums[28]];
 var cr293 = crit3[ranNums[29]];
+var cr303 = crit3[ranNums[30]];
+var cr313 = crit3[ranNums[31]];
+var cr323 = crit3[ranNums[32]];
+var cr333 = crit3[ranNums[33]];
+var cr343 = crit3[ranNums[34]];
+var cr353 = crit3[ranNums[35]];
+var cr363 = crit3[ranNums[36]];
+var cr373 = crit3[ranNums[37]];
+var cr383 = crit3[ranNums[38]];
+var cr393 = crit3[ranNums[39]];
+var cr403 = crit3[ranNums[40]];
+var cr413 = crit3[ranNums[41]];
+var cr423 = crit3[ranNums[42]];
+var cr433 = crit3[ranNums[43]];
+var cr443 = crit3[ranNums[44]];
+var cr453 = crit3[ranNums[45]];
+var cr463 = crit3[ranNums[46]];
+var cr473 = crit3[ranNums[47]];
+var cr483 = crit3[ranNums[48]];
+var cr493 = crit3[ranNums[49]];
+var cr503 = crit3[ranNums[50]];
+var cr513 = crit3[ranNums[51]];
+var cr523 = crit3[ranNums[52]];
+var cr533 = crit3[ranNums[53]];
+var cr543 = crit3[ranNums[54]];
+var cr553 = crit3[ranNums[55]];
+var cr563 = crit3[ranNums[56]];
+var cr573 = crit3[ranNums[57]];
+var cr583 = crit3[ranNums[58]];
+var cr593 = crit3[ranNums[59]];
+var cr603 = crit3[ranNums[60]];
+var cr613 = crit3[ranNums[61]];
+var cr623 = crit3[ranNums[62]];
+var cr633 = crit3[ranNums[63]];
+var cr643 = crit3[ranNums[64]];
+var cr653 = crit3[ranNums[65]];
+var cr663 = crit3[ranNums[66]];
+var cr673 = crit3[ranNums[67]];
+var cr683 = crit3[ranNums[68]];
+var cr693 = crit3[ranNums[69]];
+var cr703 = crit3[ranNums[70]];
+var cr713 = crit3[ranNums[71]];
+var cr723 = crit3[ranNums[72]];
+var cr733 = crit3[ranNums[73]];
+var cr743 = crit3[ranNums[74]];
+var cr753 = crit3[ranNums[75]];
+var cr763 = crit3[ranNums[76]];
+var cr773 = crit3[ranNums[77]];
+var cr783 = crit3[ranNums[78]];
+var cr793 = crit3[ranNums[79]];
+var cr803 = crit3[ranNums[80]];
+var cr813 = crit3[ranNums[81]];
+var cr823 = crit3[ranNums[82]];
+var cr833 = crit3[ranNums[83]];
+var cr843 = crit3[ranNums[84]];
+var cr853 = crit3[ranNums[85]];
+var cr863 = crit3[ranNums[86]];
+var cr873 = crit3[ranNums[87]];
+var cr883 = crit3[ranNums[88]];
+var cr893 = crit3[ranNums[89]];
+var cr903 = crit3[ranNums[90]];
+var cr913 = crit3[ranNums[91]];
+var cr923 = crit3[ranNums[92]];
+var cr933 = crit3[ranNums[93]];
+var cr943 = crit3[ranNums[94]];
+var cr953 = crit3[ranNums[95]];
+var cr963 = crit3[ranNums[96]];
+var cr973 = crit3[ranNums[97]];
+var cr983 = crit3[ranNums[98]];
+var cr993 = crit3[ranNums[99]];
+var cr1003 = crit3[ranNums[100]];
 
 document.getElementById("crit03").innerHTML = cr03;
 document.getElementById("crit13").innerHTML = cr13;
@@ -405,3 +1185,74 @@ document.getElementById("crit263").innerHTML = cr263;
 document.getElementById("crit273").innerHTML = cr273;
 document.getElementById("crit283").innerHTML = cr283;
 document.getElementById("crit293").innerHTML = cr293;
+document.getElementById("crit303").innerHTML = cr303;
+document.getElementById("crit313").innerHTML = cr313;
+document.getElementById("crit323").innerHTML = cr323;
+document.getElementById("crit333").innerHTML = cr333;
+document.getElementById("crit343").innerHTML = cr343;
+document.getElementById("crit353").innerHTML = cr353;
+document.getElementById("crit363").innerHTML = cr363;
+document.getElementById("crit373").innerHTML = cr373;
+document.getElementById("crit383").innerHTML = cr383;
+document.getElementById("crit393").innerHTML = cr393;
+document.getElementById("crit403").innerHTML = cr403;
+document.getElementById("crit413").innerHTML = cr413;
+document.getElementById("crit423").innerHTML = cr423;
+document.getElementById("crit433").innerHTML = cr433;
+document.getElementById("crit443").innerHTML = cr443;
+document.getElementById("crit453").innerHTML = cr453;
+document.getElementById("crit463").innerHTML = cr463;
+document.getElementById("crit473").innerHTML = cr473;
+document.getElementById("crit483").innerHTML = cr483;
+document.getElementById("crit493").innerHTML = cr493;
+document.getElementById("crit503").innerHTML = cr503;
+document.getElementById("crit513").innerHTML = cr513;
+document.getElementById("crit523").innerHTML = cr523;
+document.getElementById("crit533").innerHTML = cr533;
+document.getElementById("crit543").innerHTML = cr543;
+document.getElementById("crit553").innerHTML = cr553;
+document.getElementById("crit563").innerHTML = cr563;
+document.getElementById("crit573").innerHTML = cr573;
+document.getElementById("crit583").innerHTML = cr583;
+document.getElementById("crit593").innerHTML = cr593;
+document.getElementById("crit603").innerHTML = cr603;
+document.getElementById("crit613").innerHTML = cr613;
+document.getElementById("crit623").innerHTML = cr623;
+document.getElementById("crit633").innerHTML = cr633;
+document.getElementById("crit643").innerHTML = cr643;
+document.getElementById("crit653").innerHTML = cr653;
+document.getElementById("crit663").innerHTML = cr663;
+document.getElementById("crit673").innerHTML = cr673;
+document.getElementById("crit683").innerHTML = cr683;
+document.getElementById("crit693").innerHTML = cr693;
+document.getElementById("crit703").innerHTML = cr703;
+document.getElementById("crit713").innerHTML = cr713;
+document.getElementById("crit723").innerHTML = cr723;
+document.getElementById("crit733").innerHTML = cr733;
+document.getElementById("crit743").innerHTML = cr743;
+document.getElementById("crit753").innerHTML = cr753;
+document.getElementById("crit763").innerHTML = cr763;
+document.getElementById("crit773").innerHTML = cr773;
+document.getElementById("crit783").innerHTML = cr783;
+document.getElementById("crit793").innerHTML = cr793;
+document.getElementById("crit803").innerHTML = cr803;
+document.getElementById("crit813").innerHTML = cr813;
+document.getElementById("crit823").innerHTML = cr823;
+document.getElementById("crit833").innerHTML = cr833;
+document.getElementById("crit843").innerHTML = cr843;
+document.getElementById("crit853").innerHTML = cr853;
+document.getElementById("crit863").innerHTML = cr863;
+document.getElementById("crit873").innerHTML = cr873;
+document.getElementById("crit883").innerHTML = cr883;
+document.getElementById("crit893").innerHTML = cr893;
+document.getElementById("crit903").innerHTML = cr903;
+document.getElementById("crit913").innerHTML = cr913;
+document.getElementById("crit923").innerHTML = cr923;
+document.getElementById("crit933").innerHTML = cr933;
+document.getElementById("crit943").innerHTML = cr943;
+document.getElementById("crit953").innerHTML = cr953;
+document.getElementById("crit963").innerHTML = cr963;
+document.getElementById("crit973").innerHTML = cr973;
+document.getElementById("crit983").innerHTML = cr983;
+document.getElementById("crit993").innerHTML = cr993;
+document.getElementById("crit1003").innerHTML = cr1003;

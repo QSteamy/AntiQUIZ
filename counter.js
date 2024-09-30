@@ -4,9 +4,16 @@ var innercount = 0;
 
 var winBtn = document.getElementById("wBtn");
 var failBtn = document.getElementById("fBtn");
+var shuffleBtn = document.getElementById("sBtn");
 
 function onClickWin() {
-	winclicks += 1;
+	if(active >= 101){
+		winclicks == 1;
+		winBtn.disabled = true;
+		failBtn.disabled = true;
+	} else {
+		winclicks += 1;	
+	};
 	document.getElementById("winclicks").innerHTML = winclicks;
 	active = active + 1 < items.length ?  active + 1 : active;
     loadShow();
@@ -14,12 +21,17 @@ function onClickWin() {
     setTimeout(() => {
     	winBtn.style.backgroundColor = '#FFB401';  
 	}, 100);
- innercount -= innercount;
+ 	innercount -= innercount;
 };
 
-
 function onCLickLose() {
-	loseclicks += 1;
+	if(active >= 101){
+		loseclicks == 1;
+		winBtn.disabled = true;
+		failBtn.disabled = true;
+	} else {
+		loseclicks += 1;	
+	};
 	innercount += 1;
 	document.getElementById("loseclicks").innerHTML = loseclicks;
 	if(innercount == 3) {
@@ -30,5 +42,5 @@ function onCLickLose() {
     failBtn.style.backgroundColor = '#991d00';
     setTimeout(() => {
     	failBtn.style.backgroundColor = '#FF3101';  
-	}, 100)
-}
+	}, 100);
+};
